@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ac-wrapper">
+        <div id="popup">
+            <center>
+                <h2>Press START when you are ready</h2>
+                <input type="submit" name="submit" id="timerBtn" value="START" onClick="PopUp()" />
+            </center>
+        </div>
+    </div>
+    <h1>Guess the color!
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+        <div id="score">Score: <span id="scoreDisplay">0</span></div>
+        <p>Timer: <span id="timer">60</span></p>
+    </h1>
+    <div id="stripe">
+        <button><a href="http://127.0.0.1:5500/index.html">Back</a></button>
+        <span id="message"></span>
+    </div>
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <script src="easy.js"></script>
+</body>
+</html>
